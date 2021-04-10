@@ -1,0 +1,197 @@
+.show_movies{
+    .movies_complex{
+        img{
+            max-width: 100%;
+        }
+    }
+
+    .show_movies_list_rap{
+        .show_movies_list_rap_item{
+            border-bottom: 1px solid #fff;
+            border-color: rgba(238,238,238,.88);
+            padding: 20px 0;
+            cursor: pointer;
+            .show_movies_list_rap_item_img{
+                width: 100%;
+                height: 100%;
+            }
+            .show_movies_list_rap_item_title{
+                margin: 0;
+                margin-top: 10px;
+                font-size: 14px;
+                color: #000000;
+                font-weight: bold;
+                strong{
+                    color: #8bc551;
+                    font-size: 15px;
+                }
+            }
+            .show_movies_list_rap_item_des{
+                   margin: 0;
+                   margin-top: -7px;
+            }
+            .show_movies_list_rap_item_detail{
+                color: #fb4226;
+            }
+        }
+    }    
+    .show_movies_detail_groups{
+        padding-left: 8px;
+        padding-right: 20px;
+        .show_movies_detail__groups_item{
+            padding:8px 0;
+           .show_movies_detail_item_img{
+               width: 100%;
+               height: 90%;
+            }
+            .show_movies_detail_item_title{
+               margin: 0;
+               font-size: 14px;
+               color: #000000;
+               font-weight: bold;
+              
+            }
+            .show_movies_detail_C{
+                background-color: #fb4226;
+                color: #fff;
+                border-radius: 4px;
+                padding: 0 5px;
+                   margin-right: 8px;
+                   font-size: 12px;
+                   min-width: 33px;
+                    text-align: center;
+                    margin-bottom: 5px;
+            }
+            .show_movies_deital_item_des{
+               margin: 0;
+               margin-top: -7px;
+            }
+            .show_movies_detail_item_detail{
+               color: #fb4226;
+
+            }
+            .show_movies_time{
+                width: 95%;
+               transition: all .2s;
+               text-decoration: none;
+               text-align: center;
+               background-color: rgba(246,246,246,.5);
+               border-radius: 7px;
+               color: #9b9b9b;
+               border: 1px solid #e4e4e4;
+               font-size: 14px;
+               font-weight: 400;
+               margin: 0 5px;
+               font-size: 14px;
+                strong{
+                   font-size: 18px;
+                   font-weight: 700;
+                   color: #108f3e;
+                }
+                &:hover{
+                    strong{
+                        color: #fb4226;
+                    }
+                }
+            }
+        }
+    }
+        
+                     
+   }
+             
+    
+  /*END Show Movies*/  
+/**/
+
+/*Bg_Hoeme ----------------------------------------------------------*/
+.bg_home{
+    margin-top: 50px;
+    position: relative;
+    .bg_home_img{
+        width: 100%;
+    }
+    .bg_home_content{
+       position: absolute;
+       top: 0;
+       width: 940px;
+       display: flex;
+       justify-content: center;
+       padding-top: 120px;
+       .bg_home_left{
+           padding-top: 50px;
+           .bg_home_left_title{
+               font-size: 3rem;
+               color: #fff;
+           }
+           .bg_home_left_des{
+               color: #fff;
+               font-size: 18px;
+           }
+           .bg_home_left_btn{
+            background-color: #fb4226;
+            padding: 10px 20px;
+            color: #fff;
+            font-weight: 700;
+            border: none;
+            border-radius: 4px;
+            display: block;
+            margin: 0;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+           
+        }
+           }
+           .bg_home_right{
+               text-align: center;
+               max-width: 220px;
+               margin: auto;
+               .bg_home_right_img{
+                   img{
+                       max-width: 100%;
+                       max-height: 450px;
+                       position: relative;
+
+                   }
+                   .bg_overplay{
+                       top: 0;
+                       right: 0;
+                       width: 100%;
+                       height: 100%;
+                       padding: 10px;
+                       position: absolute;
+                       .bg_overplay_carousel{
+                           height: 100%;
+                           .bg_overplay_carousel_item{
+                            max-width: 100%;
+                            border-radius: 25px;
+                            height: auto;
+                           }
+
+                       }
+                   }
+               }
+           }
+       }
+    }
+
+
+    @media screen and (max-width:1000px){
+        .bg_home{
+            display: none;
+            .bg_home_content{
+                .bg_home_mobile{
+                    display: flex;
+                    flex-direction: column;
+                   
+                    .bg_home_left{
+                        text-align: center;
+                        width: 100% !important;
+                    }
+                }
+            }
+            
+        }
+    }

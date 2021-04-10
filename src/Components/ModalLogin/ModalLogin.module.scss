@@ -1,0 +1,17 @@
+.form_login{
+    input{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        outline: none;
+        border: none;
+    }
+    input[type="submit"]{
+       background-color: #fb4226;
+       color: white;
+       font-size: 20px;
+       cursor: pointer;
+
+    }
+    
+}

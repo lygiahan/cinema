@@ -1,0 +1,128 @@
+@import '~antd/dist/antd.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+    font-family: 'SF Regular';
+}
+body{
+    font-family: 'SF Regular';
+}
+
+.ant-carousel .slick-dots-bottom{
+    bottom: 40px;
+}
+.mainmaxwith{
+    max-width: 940px;
+    margin: auto;
+}
+.ant-card-body{
+    padding: 5px;
+}
+
+
+#movies .slick-dots{
+    display: none !important;
+}
+#movies .slick-next, #movies .slick-prev{
+    font-size: 40px;
+}
+#movies .slick-next{
+    right: -130px;
+}
+#movies .slick-prev{
+    left: -55px ;
+}
+
+#movies .slick-prev:before, #movies .slick-next:before{
+    font-size: 40px;
+    background-color: #4e4e4e;
+}
+#movies .slick-next,#movies .slick-prev {
+    top: 42%;
+}
+#movies .slick-next,#movies .slick-prev{
+    width: auto;
+    height: auto;
+}
+.ant-card-cover{
+    position: relative;
+}
+
+/* reset Hero Slick*/
+
+
+   /* #hero .slick-prev{
+    left: 28px;
+    background-color: red !important;
+   } */
+/**end /
+
+
+/* .ant-card-cover::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(299, 12%, 53%, 0.6);
+    z-index: 20;
+    opacity: 0;
+    bottom: 0;
+    transition: all .2s;
+}  */
+
+
+/*Setup carousel Movies Home */
+
+
+/* .movies .movies_carousel  .ant-carousel .slick-dots{
+    background-color: red;
+    
+}
+.movies_carousel .movies .ant-carousel .slick-dots li:first-child(){
+    background-color: yellow;
+    position: absolute;
+  
+} */
+
+.ant-list-item-meta-avatar{
+    width:55px;
+    height: 58px;
+}
+.ant-tabs-nav-wrap{
+    justify-content: flex-start;
+}
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs-right > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs-left > div > .ant-tabs-nav .ant-tabs-nav-wrap, .ant-tabs-right > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+
+    flex-direction: row;
+}
+
+
+.ant-carousel,.slick-list,.slick-track{
+    height: 100%;
+}
+
+.ant-carousel .slick-list .slick-slide > div > div{
+    height: 100%;
+
+}
+
+
+/*Setup Process -*/
+
+.ant-progress-circle .ant-progress-text {
+    font-size: 2.5em !important;
+    color: #000;
+}
+
+.show_movies .tabs-nav-wrap, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap{
+    height: 500px;
+    overflow-y: hidden;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    border: none;
+}
